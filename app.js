@@ -15,7 +15,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 app.get('/', function (req, res) {
-  res.send('hello jenkins');
+  res.send('hello jenkins2');
 });
 
 app.listen(process.env.PORT || 5000);
